@@ -1,1 +1,1 @@
-# EyeExercise
+Welcome to the Eye Tracker! This uses a combonation of JavaScript, CSS, and HTMl to create an nteractive eye that follows the actions of the mouse. I would like to be able to flesh this out a but more soon by adding a eye multiplier when the eyeball is clicked. I am also planning on addinf blinkkng with reactions in eye color.
