@@ -31,7 +31,8 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 50%;
   }
-  .social__container {
+  
+.social__container {
     position: relative;
     height: 100%;
     align-items: center;
