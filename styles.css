@@ -4,14 +4,14 @@ body {
     background: #14495e;
   }
   
-  .eyes {
+  .eyes1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
-  .eye {
+  .eye1 {
     width: 240px;
     height: 120px;
     background: #fff;
@@ -21,7 +21,34 @@ body {
     position: relative;
     overflow: hidden;
   }
-  .ball {
+  .ball1 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  .eyes2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: right;
+  }
+  .eye2 {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .ball2 {
     width: 80px;
     height: 80px;
     background: #000;
