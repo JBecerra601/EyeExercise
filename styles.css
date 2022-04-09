@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #14495e;
+  background: black;
 }
 
 .eyes {
@@ -15,7 +15,7 @@ body {
 .eye {
   width: 240px;
   height: 120px;
-  background: #fff;
+  background: white;
   display: inline-block;
   margin: 40px;
   border-radius: 50%;
@@ -25,12 +25,18 @@ body {
 .ball {
   width: 80px;
   height: 80px;
-  background: #000;
+  background: black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+.face{
+background-color:yellow ;
+width: 450px;
+height: 450px;
+border-radius: 100%;
 }
   
 .social__container {
@@ -59,7 +65,7 @@ body {
     position: absolute;
     width: 1rem;
     height: 2px;
-    Background-color: #000000;			
+    Background-color: white;			
     right: -45%;
     top: 50%;
 }
@@ -71,7 +77,7 @@ body {
 
 .social__link {
     font-size: 1.08rem;
-    color: #000000;			
+    color: white;			
     transition: .3s;
 }
 
