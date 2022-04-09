@@ -35,6 +35,7 @@ body {
   
 .social__container {
     position: relative;
+    display: inline-flex;
     height: 100%;
     align-items: center;
 }
