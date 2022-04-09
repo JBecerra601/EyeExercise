@@ -5,7 +5,8 @@ body {
 }
 
 .eyes {
-  position: absolute;
+  position: relative;
+  display: inline-flex;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
