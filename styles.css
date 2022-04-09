@@ -2,10 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background: black;
+  text-align:center;
 }
 
 .eyes {
-  position: relative;
+  position: absolute;
   display: inline-flex;
   top: 50%;
   transform: translateY(-50%);
@@ -13,18 +14,18 @@ body {
   text-align: center;
 }
 .eye {
-  width: 240px;
-  height: 120px;
+  width: 125px;
+  height: 75px;
   background: white;
   display: inline-block;
-  margin: 40px;
+  margin: 20px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
 }
 .ball {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: black;
   position: absolute;
   top: 50%;
